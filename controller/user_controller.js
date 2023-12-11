@@ -25,9 +25,6 @@ module.exports = {
                 { token: token.token, logintime: token.time },
                 { new: true }
             )
-
-
-
             return res.json({
                 message: "user added",
                 status: 200,
