@@ -7,6 +7,8 @@ const usersschema = new mongoose.Schema({
     bio:{type:String},
     password:{type:String},
     subject:{type:String},
+    token:{type:String},
+    logintime:{type:String},
 },{timestamps:true})
 
 module.exports=mongoose.model('users',usersschema)
